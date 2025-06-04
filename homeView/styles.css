@@ -1,0 +1,218 @@
+/* header */
+#header{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+
+}
+#firstLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#logoAndSearch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+.searchBar{
+    margin-left: 10px;
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#secondLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.logo{
+    margin-left: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.normalButton{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+.category:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.normalButton:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+
+#mainContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.titleContent{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.titleContent2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    background-color: lightyellow;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 250px;
+}
+
+.item{
+    margin: 3px;
+    padding: 5px 10px 5px 10px;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+.playList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid black;
+    max-width: 250px;
+    cursor: pointer;
+}
+
+.playList :hover{
+    background-color: lightblue;
+}
+
+.playListImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.artist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid black;
+    max-width: 250px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.artist :hover{
+    background-color: lightblue;
+}
+
+.artistImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.musicCard{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.musicCardInfo{
+    padding: 10px;
+}
+
+.musicCardAuthor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.musicCardAuthorImage{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.musicCardChord{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.musicCardDate{
+    padding: 10px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-start;
+}
+
+.chord{
+    padding: 3px 10px 3px 10px;
+    margin: 3px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+}
+/* lefbar */
+#leftBar{
+    width: 250px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* content */
+#content{
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+}
+/* rightbar */
+#rightBar{
+    width: 250px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* footer */
